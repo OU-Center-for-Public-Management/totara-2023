@@ -110,7 +110,7 @@ The Main menu is the ribbon across the top of the dashboard.
         2. Body
 
 ### Footer
-![Footer](assets/footer.png)
+![Footer](assets/Footer.png)
 - background
 - Log out button
 - links
