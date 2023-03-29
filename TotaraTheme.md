@@ -525,7 +525,7 @@ The Main menu is the ribbon across the top of the dashboard.
             2. Item rows <br> ![User row](assets/User%20row.png)
                 1. user image thumbnail
                 2. links (two states, Active and Hover/Focus)
-                    1. Fullname
+                    1. Full name
                     2. email
                 3. Text
                 4. Action buttons
