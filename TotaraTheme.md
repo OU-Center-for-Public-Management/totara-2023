@@ -119,6 +119,64 @@ The Main menu is the ribbon across the top of the dashboard.
 
 ## Reports Screen
 ### Page Header
+#### Main menu
+The Main menu is the ribbon across the top of the dashboard.
+1. DHS Learning logo <br/>This logo text is identical to the DHS Learning text on the login screen. However, it is paired with a svg. Just pointing out the inconsistancy.<br/>The DHS Learning logo is used as a link. Therefor, it needs an active state and a hover/focus state.
+2. Menu items (Transcript, Team, Find Learning, Reports, HR Programs, My Calendar, Need Help?)<br/>  These elements can have submenus attached. None of them do in our current implementation. They function as links and so need two states, active and hover/focus.
+3. Gear menu (Admin Settings)
+    1. The button for the gear menu has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded menu is open
+    2. The expanded menu has a search window
+    3. The elements in the expanded menu are links and so have two states, active and hover/focus. That includes the elements below the horizontal rule.
+4. Messages button
+    1. The button for the messages panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded Messages panel has a title "Messages"
+    3. The elements on the top segment, "New message", the check mark, and the gear icon, are all functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The Message element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+5. Notifications button<br/>I didn't include an image of the notifications panel expanded because it is very similar to the messages panel.<br/>
+    1. The button for the notification panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded notification panel has a title "Notifications"
+    3. The elements on the top segment,  the check mark and the gear icon, are functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The notification element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+6. User menu
+    1. The user menu button contains three elements
+        1. User name
+        2. User image (optional)
+        3. Action indicator
+    2. It behaves as a button so should have three states
+        1. Active
+        2. Hover/focus
+        3. Pressed
+    3. Each item on the user menu contains two elements
+        1. icon
+        2. option title
+    4. Each item behaves as a link so should have two states
+        1. active
+        2. hover/focus
+7. Breadcrumb<br/>The breadcrumb is made up of three elements:
+    1. Higher level of path. This is a link so has two states.
+        1. active
+        2. hover/focus
+    2. Divider. In the previous theme this is a greater than symbol. It is used to separate the various files of the path.
+    3. Current page. This element is just text as it would only link to the page the user is already on.
 ### Content Area
 #### Report Area
 ![Report Section](assets/allReports.png)
@@ -145,6 +203,64 @@ The Main menu is the ribbon across the top of the dashboard.
 ## Find Learning Screen
 ![Find Lerning Screen](assets/findLearning.png)
 ### Page Header
+#### Main menu
+The Main menu is the ribbon across the top of the dashboard.
+1. DHS Learning logo <br/>This logo text is identical to the DHS Learning text on the login screen. However, it is paired with a svg. Just pointing out the inconsistancy.<br/>The DHS Learning logo is used as a link. Therefor, it needs an active state and a hover/focus state.
+2. Menu items (Transcript, Team, Find Learning, Reports, HR Programs, My Calendar, Need Help?)<br/>  These elements can have submenus attached. None of them do in our current implementation. They function as links and so need two states, active and hover/focus.
+3. Gear menu (Admin Settings)
+    1. The button for the gear menu has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded menu is open
+    2. The expanded menu has a search window
+    3. The elements in the expanded menu are links and so have two states, active and hover/focus. That includes the elements below the horizontal rule.
+4. Messages button
+    1. The button for the messages panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded Messages panel has a title "Messages"
+    3. The elements on the top segment, "New message", the check mark, and the gear icon, are all functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The Message element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+5. Notifications button<br/>I didn't include an image of the notifications panel expanded because it is very similar to the messages panel.<br/>
+    1. The button for the notification panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded notification panel has a title "Notifications"
+    3. The elements on the top segment,  the check mark and the gear icon, are functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The notification element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+6. User menu
+    1. The user menu button contains three elements
+        1. User name
+        2. User image (optional)
+        3. Action indicator
+    2. It behaves as a button so should have three states
+        1. Active
+        2. Hover/focus
+        3. Pressed
+    3. Each item on the user menu contains two elements
+        1. icon
+        2. option title
+    4. Each item behaves as a link so should have two states
+        1. active
+        2. hover/focus
+7. Breadcrumb<br/>The breadcrumb is made up of three elements:
+    1. Higher level of path. This is a link so has two states.
+        1. active
+        2. hover/focus
+    2. Divider. In the previous theme this is a greater than symbol. It is used to separate the various files of the path.
+    3. Current page. This element is just text as it would only link to the page the user is already on.
 ### Content Area
 #### Find learning section
 - Header
@@ -200,6 +316,64 @@ The Main menu is the ribbon across the top of the dashboard.
 ## Admin Screen
 ![Navigation settings screen](assets/adminScreen.png)
 ### Page Header
+#### Main menu
+The Main menu is the ribbon across the top of the dashboard.
+1. DHS Learning logo <br/>This logo text is identical to the DHS Learning text on the login screen. However, it is paired with a svg. Just pointing out the inconsistancy.<br/>The DHS Learning logo is used as a link. Therefor, it needs an active state and a hover/focus state.
+2. Menu items (Transcript, Team, Find Learning, Reports, HR Programs, My Calendar, Need Help?)<br/>  These elements can have submenus attached. None of them do in our current implementation. They function as links and so need two states, active and hover/focus.
+3. Gear menu (Admin Settings)
+    1. The button for the gear menu has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded menu is open
+    2. The expanded menu has a search window
+    3. The elements in the expanded menu are links and so have two states, active and hover/focus. That includes the elements below the horizontal rule.
+4. Messages button
+    1. The button for the messages panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded Messages panel has a title "Messages"
+    3. The elements on the top segment, "New message", the check mark, and the gear icon, are all functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The Message element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+5. Notifications button<br/>I didn't include an image of the notifications panel expanded because it is very similar to the messages panel.<br/>
+    1. The button for the notification panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded notification panel has a title "Notifications"
+    3. The elements on the top segment,  the check mark and the gear icon, are functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The notification element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+6. User menu
+    1. The user menu button contains three elements
+        1. User name
+        2. User image (optional)
+        3. Action indicator
+    2. It behaves as a button so should have three states
+        1. Active
+        2. Hover/focus
+        3. Pressed
+    3. Each item on the user menu contains two elements
+        1. icon
+        2. option title
+    4. Each item behaves as a link so should have two states
+        1. active
+        2. hover/focus
+7. Breadcrumb<br/>The breadcrumb is made up of three elements:
+    1. Higher level of path. This is a link so has two states.
+        1. active
+        2. hover/focus
+    2. Divider. In the previous theme this is a greater than symbol. It is used to separate the various files of the path.
+    3. Current page. This element is just text as it would only link to the page the user is already on.
 ### Content Area
 1. Breadcrumb<br/>![Breadcrumb](assets/breadcrumb.png)<br/>The breadcrumb is made up of three elements:
     1. Higher level of path. This is a link so has two states.
@@ -241,7 +415,65 @@ The Main menu is the ribbon across the top of the dashboard.
 
 ## User screen
 ![Users screen](assets/allUsers.png)
-### Page header
+### Page Header
+#### Main menu
+The Main menu is the ribbon across the top of the dashboard.
+1. DHS Learning logo <br/>This logo text is identical to the DHS Learning text on the login screen. However, it is paired with a svg. Just pointing out the inconsistancy.<br/>The DHS Learning logo is used as a link. Therefor, it needs an active state and a hover/focus state.
+2. Menu items (Transcript, Team, Find Learning, Reports, HR Programs, My Calendar, Need Help?)<br/>  These elements can have submenus attached. None of them do in our current implementation. They function as links and so need two states, active and hover/focus.
+3. Gear menu (Admin Settings)
+    1. The button for the gear menu has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded menu is open
+    2. The expanded menu has a search window
+    3. The elements in the expanded menu are links and so have two states, active and hover/focus. That includes the elements below the horizontal rule.
+4. Messages button
+    1. The button for the messages panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded Messages panel has a title "Messages"
+    3. The elements on the top segment, "New message", the check mark, and the gear icon, are all functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The Message element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+5. Notifications button<br/>I didn't include an image of the notifications panel expanded because it is very similar to the messages panel.<br/>
+    1. The button for the notification panel has three states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the coursor over it or when a user tabs to the button
+        3. pressed - shown when the expanded panel is open
+    2. The expanded notification panel has a title "Notifications"
+    3. The elements on the top segment,  the check mark and the gear icon, are functionally links and so have two states
+        1. active - normally shown
+        2. hover/focus - shown when the user hovers the cursor over it or when a user tabs to the button
+    4. The notification element is also functionally a link
+        1. active state
+        2. hover/focus state
+    5. The footer of the panel contains one link, the See all link.
+6. User menu
+    1. The user menu button contains three elements
+        1. User name
+        2. User image (optional)
+        3. Action indicator
+    2. It behaves as a button so should have three states
+        1. Active
+        2. Hover/focus
+        3. Pressed
+    3. Each item on the user menu contains two elements
+        1. icon
+        2. option title
+    4. Each item behaves as a link so should have two states
+        1. active
+        2. hover/focus
+7. Breadcrumb<br/>The breadcrumb is made up of three elements:
+    1. Higher level of path. This is a link so has two states.
+        1. active
+        2. hover/focus
+    2. Divider. In the previous theme this is a greater than symbol. It is used to separate the various files of the path.
+    3. Current page. This element is just text as it would only link to the page the user is already on.
 ### Content Area
 #### Sidebar
 - Small blocks
@@ -311,7 +543,6 @@ The Main menu is the ribbon across the top of the dashboard.
 ## System Information<br>
 ![System Information screen](assets/systemInformation.png)
 ### Page Header
-The dashboard is the main interface for users. It is possible to have multiple dashboards assigned to different types of users. However, all dashboards will have some common elements.
 #### Main menu
 The Main menu is the ribbon across the top of the dashboard. 
 1. DHS Learning logo <br/>This logo text is identical to the DHS Learning text on the login screen. However, it is paired with a svg. Just pointing out the inconsistancy.<br/>The DHS Learning logo is used as a link. Therefor, it needs an active state and a hover/focus state.
