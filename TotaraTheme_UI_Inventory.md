@@ -1,4 +1,4 @@
-# Totara Theme
+# Totara Theme UI Inventory
 
 ## Login Panel
 ![Login Panel](assets/LoginPanel.png)  
